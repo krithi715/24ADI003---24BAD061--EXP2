@@ -1,1 +1,5 @@
-# 24ADI003---24BAD061--EXP2
+Scenario 1 – Ocean Water Temperature Prediction:
+          This project predicts ocean water temperature (T_degC) using the CalCOFI oceanographic dataset (https://www.kaggle.com/datasets/sohier/calcofi). Depth, salinity, oxygen, latitude, and longitude are used as input features to train a Linear Regression model. The workflow includes data preprocessing, missing value imputation, feature scaling, model training, and evaluation using MSE, RMSE, and R² score. Model performance is visualized using actual vs predicted and residual plots, with further optimization through feature selection and Ridge and Lasso regularization.
+
+Scenario 2 – LIC Stock Price Movement Classification:
+          This project focuses on predicting LIC stock price movement using historical stock data from Kaggle (https://www.kaggle.com/datasets/debashis74017/lic-stock-price-data). A binary target variable is created based on whether the closing price is higher than the opening price. Logistic Regression is used with features including open, high, low, and volume. The model is evaluated using accuracy, precision, recall, F1-score, confusion matrix, and ROC curve, and optimized using hyperparameter tuning and regularization techniques.
